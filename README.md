@@ -1,4 +1,7 @@
 # Olist-Data-Stabilization-Audit
+
+### Click here to view the [fully rendered report](https://jessicak222.github.io/Olist-Data-Stabilization-Audit/).
+
 **Technical Objective:** Neutralizing a Global Price Skew of 7.7 in the Olist dataset to stabilize revenue forecasting.
 
 # Summary
@@ -7,7 +10,7 @@ In the raw Olist e-commerce dataset, extreme price anomalies created a Global Pr
 This technical snippet demonstrates a Category-Specific Stabilization Pipeline designed to neutralize statistical noise while preserving 91% of organic high-value transaction volume. By applying localized 3xIQR caps, I successfully reduced the global skew to 4.4 and compressed data variance by 35%.
 
 <div align="center">
-  <img src="images/global_distribution_audit.png"/><br>
+  <img src="global_distribution_audit.png"/><br>
   <i>Audit showing comparison between raw and cleaned data</i>
 </div>
 
@@ -21,8 +24,5 @@ This technical snippet demonstrates a Category-Specific Stabilization Pipeline d
 - **Visual Auditing:** Created comparative distribution overlays (Boxplots) and automated exception reports to validate stabilization impact.
 
 <div align="center">
-  <img src="images/boxplot_comparison.png">
+  <img src="boxplot_comparison.png">
 </div>
-
-# How to View
-View the [fully rendered report](https://nbviewer.org/github/jessicak222/Olist-Data-Stabilization-Audit-/blob/main/Olist_Stabilization_Audit.ipynb) on NBViewer.
